@@ -34,7 +34,7 @@ model = GradientBoostingClassifier(random_state=42)
 model.fit(X_train, y_train)
 
 # Create Streamlit interface
-st.title('Depression Risk Predictor')
+st.title('The identification of depression risk in KOA patients')
 
 # User input fields
 gender = st.selectbox('Gender (0=Male, 1=Female)', [0, 1])
